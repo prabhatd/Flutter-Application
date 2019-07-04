@@ -1,0 +1,52 @@
+                            
+
+
+                                        How To Create Your First Flutter Application
+                                        --------------------------------------------
+					--------------------------------------------
+
+1- Select the operating system on which you are installing Flutter:
+
+		Linux:
+
+			Download the following installation bundle to get the latest stable release of the Flutter SDK:
+
+
+			Installation Link:-	https://flutter.dev/docs/get-started/install/linux
+
+
+2- Extract the file in the desired location, for example:
+
+		
+    (1)-Open Terminal
+
+     (2)-Write the following Command where you want to extract that Flutter tar File:
+
+              tar xf ~/Downloads/flutter_linux_v1.5.4-hotfix.2-stable.tar.xz
+
+
+
+3-  Add the flutter tool to your path:
+
+		Where you want to extract and Create your First Flutter App inside that Folder:
+
+			export PATH="$PATH:'pwd'/flutter/bin"
+
+
+		pwd:- This the path of that flutter directory where you have extracted your flutter tar file.
+
+
+
+4- Run the following command to see if there are any dependencies you need to install to complete the setup
+
+		
+		flutter doctor
+
+
+5- After that in the above folder run this Command for creation of Flutter Application.
+
+		1- flutter create my_flutter_application
+
+		2- cd my_flutter_application
+		
+		3- flutter run 
